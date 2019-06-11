@@ -1,0 +1,136 @@
+   <html lang="es">
+<meta charset="utf-8">
+<head>
+<center>
+<title> Domicilio </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<script src="js/despegable.js"> </script>
+<script src="js/jquery.js"> </script>
+</head>
+<body>
+
+<header class="cabecera">
+<img src="IMG/farmacol.png" alt="css3" width="30%" height="30%" alt="Responsive image">
+     <div id="marca">
+          <h1>La farmacia del pueblo</h1>
+        </div>
+    </header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+      </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Producto.html" role="button" aria-haspopup="true" aria-expanded="false">Productos</a>
+    <div class="dropdown-menu" >
+      <a class="dropdown-item" href="Infantil.html">Infantil</a>
+      <a class="dropdown-item" href="analgesicos.html">Analgésicos</a>
+      <a class="dropdown-item" href="laxantes.html">Laxantes</a>
+      <a class="dropdown-item" href="naturales.html">Medicamentos naturales</a>
+      <a class="dropdown-item" href="herramientas.html">Herramientas de tratamiento médico</a>
+    </div>
+  </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Domicilio.html">Domicilio</a>
+      </li>
+<li class="nav-item">
+        <a class="nav-link" href="contacto.html">Contáctenos</a>
+      </li>
+  </div>
+</nav>
+
+<section class="contenedor">
+  
+<label id="p">Para realizar su pedido debe rellenar los siguientes campos, de esta manera será registrada en la plataforma y así llevar a cabo su solicitud. 
+</label>
+
+<label>Si usted no se encuentra registrado, no podemos aceptar su pedido por políticas de la empresa.
+</label>
+
+<label>Cualquier duda o inconveniente ponerse en contacto con nuestra empresa, en el apartado “contáctenos”.  Estaremos atentos para dar una respuesta oportuna.
+</label>
+
+<h5> Linea directa para su solicitud </h5>
+
+3116245475
+<br>
+3118674037
+
+
+</section>
+
+<section>
+  <center>
+<form class="contenedor">
+  <div class="cajas">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nombre</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre" >
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Apellido</label> 
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Documento de identificación</label>
+    <input type="number" class="form-control" id="inputAddress" placeholder="Documento" >
+   </div>
+  <div class="form-group">
+    <label for="inputAddress2">Dirección</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento o residencia">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Barrio</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Corregimiento</label>
+      <select id="inputState" class="form-control">
+        <option selected>Cabecera municipal</option>
+        <option>Las cruces</option>
+        <option>El socorro</option>
+        <option>Sabaneta</option>
+        <option>Loma alta</option>
+        <option>Albania</option>
+        <option>Hato nuevo</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck" href="#">
+        Acepta terminos y condiciones 
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</div>
+</form>
+</center>
+</section>
+<br>
+<footer>
+  Yesid Rivera Ortega; Jorge Lopez Sierra
+  <br>
+  Ingenieria de Sistemas 
+  <br>
+  2019
+</footer>
+
+</body>
+</html>

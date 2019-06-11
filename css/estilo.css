@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*Sitio web*/
+
+.cabecera{
+  overflow: hidden;
+  background: #00CAF3;
+}
+.cabecera img{
+  display: block;
+  margin: auto;
+}
+
+.cabecera h1{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 28px;
+    margin:0;
+  color:black;
+  text-shadow: 2px 4px white;
+}
+
+.cabecera h3{
+  font-size: 25px;
+  text-align: center;
+  color:dodgerblue;
+}
+
+  }
+  header #marca h1{
+  margin:0;
+  color:blue;
+  text-shadow: 2px 4px yellow;
+
+}
+
+.contenedor{
+width: 80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+float text-align: left;
+}
+
+.contenedor table img{
+width: 300px;
+}
+
+.menu{
+  background: #FFB233;
+  overflow: hidden;
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline;
+}
+
+.menu ul li {
+  color: #FF7D33;
+  text-decoration: none;
+  padding: 5px;
+}
+.menu ul li :hover{
+  color: #F69F2C;
+}
+.menu a {
+  color: black;
+}
+#cajas{
+  margin-top:30px;
+}
+
+#cajas .caja{
+  float:left;
+  text-align: center;
+  width:50%;
+  padding:30px;
+}
+
+#cajas .caja img{
+  width:90px;
+}
+aside{
+  flood-color: currentColor;
+  text-align: center;
+  text-decoration-color: rgba(); 
+}
+
+#p{
+ text-align: center; 
+}
+#fondo{
+  overflow: hidden;
+  background: #00F3A6;
+}
+footer {
+  background: #333; 
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+}
